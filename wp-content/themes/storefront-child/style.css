@@ -1,0 +1,36 @@
+/*
+Theme Name: Storefront-child
+Version: 1.0
+Description: A child theme of Storefront
+Template: storefront
+*/
+
+@import url("../storefront/style.css");
+
+.site-header {
+  background-color: #e18fb3;
+}
+
+.hentry .entry-header h1 {
+  text-align: center;
+}
+
+.hentry {
+    margin: 0 0 0em;
+    padding-bottom: 0em;
+    border-bottom: 0px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.site-footer {
+  background-color: #e18fb3;
+  color: #000;
+}
+
+.site-footer a:not(.button) {
+    color: #fff;
+}
+
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
+    color: #000;
+}
